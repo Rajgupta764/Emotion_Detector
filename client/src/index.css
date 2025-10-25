@@ -1,0 +1,25 @@
+/* minimal styles */
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #fafafa;
+  color: #212121;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+  padding: 8px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+button {
+  background: #1976d2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
